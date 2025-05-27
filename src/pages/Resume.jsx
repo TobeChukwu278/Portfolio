@@ -15,7 +15,7 @@ const Resume = () => {
                 </p>
             </div>
 
-            <div className='flex gap-3 items-stretch'>
+            <div className='flex flex-col sm:flex-row gap-3 items-stretch'>
                 <div className="flex-1">
                     <h1 className="text-3xl font-bold text-amber-600 mb-6">Education :</h1>
                     <div data-aos="fade-up" className="bg-white/10 backdrop-blur-md rounded-xl shadow-lg p-6 max-w-xl mx-auto mb-8 flex flex-col gap-2 border-l-4 border-amber-600 h-full min-h-10">
