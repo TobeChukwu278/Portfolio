@@ -27,7 +27,7 @@ const Connect = () => {
             {/* Left: Text & Contact Info */}
             <div className="flex-1 flex flex-col items-center md:items-end relative">
                 <div className="mb-6 md:mb-10 text-center md:text-right">
-                    <h3 className="text-2xl font-semibold mb-4">
+                    <h3 className="text-2xl text-amber-100 font-semibold mb-4">
                         Let's build something great together! <br />
                         <span className="text-amber-500 font-bold">Say Hello!</span>
                     </h3>
