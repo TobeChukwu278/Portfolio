@@ -57,7 +57,7 @@ const Resume = () => {
                         <SkillMeter skill="Node.js" level={40} icon="🟩" />
                     </div>
                     <div data-aos="fade-up" data-aos-delay='500' className="flex flex-col items-center gap-4">
-                        <SkillMeter skill="MongoDB" level={75} icon="🍃" />
+                        <SkillMeter skill="MongoDB" level={30} icon="🍃" />
                         <SkillMeter skill="CSS" level={75} icon="🎨" />
                     </div>
                 </div>

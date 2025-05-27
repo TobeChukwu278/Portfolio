@@ -1,34 +1,50 @@
-import React from 'react'
+import React, { useState } from 'react';
 
 const Navbar = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
+
+    const navLinks = [
+        { href: "#hero", label: "Home" },
+        { href: "#about", label: "About" },
+        { href: "#resume", label: "Resume" },
+        { href: "#featuredworks", label: "Works" },
+        { href: "#devnews", label: "Blog" },
+        { href: "#connect", label: "Contact" },
+    ];
+
     return (
-        <nav className=" border-b border-gray-200">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between h-16">
-                    <div className="flex items-center">
-                        <a href="#" className="text-xl font-bold text-white">TAGDev</a>
-                    </div>
-                    <div className="hidden md:flex items-center space-x-4">
-                        <a href="#hero" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                        <a href="#about" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">About</a>
-                        <a href="#resume" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Resume</a>
-                        <a href="#featuredworks" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Works</a>
-                        <a href="#devnews" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Blog</a>
-                        <a href="#connect" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
-                        <span className="text-gray-400 px-3 py-2 rounded-md text-sm font-medium cursor-not-allowed">Tobe Chukwu</span>
-                    </div>
-                    {/* Mobile menu button */}
-                    <div className="flex items-center md:hidden">
-                        <button type="button" className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-600 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
-                            <svg className="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
+        <nav className="bg-gray-900 px-4 py-3 shadow-lg">
+            <div className="max-w-6xl mx-auto flex items-center justify-between">
+                <div className="text-2xl font-bold text-amber-500">MyPortfolio</div>
+                {/* Hamburger */}
+                <button
+                    className="md:hidden text-amber-500 text-3xl focus:outline-none"
+                    onClick={() => setMenuOpen(!menuOpen)}
+                    aria-label="Toggle navigation"
+                >
+                    {menuOpen ? (
+                        <span>&#10005;</span> // X icon
+                    ) : (
+                        <span>&#9776;</span> // Hamburger icon
+                    )}
+                </button>
+                {/* Nav Links */}
+                <ul className={`flex-col md:flex-row md:flex gap-8 md:gap-8 items-center absolute md:static bg-gray-900 md:bg-transparent left-0 w-full md:w-auto transition-all duration-300 z-40 ${menuOpen ? 'flex top-16' : 'hidden md:flex top-[-400px]'}`}>
+                    {navLinks.map(link => (
+                        <li key={link.href}>
+                            <a
+                                href={link.href}
+                                className="block py-2 px-4 text-amber-100 hover:text-amber-500 transition-colors"
+                                onClick={() => setMenuOpen(false)}
+                            >
+                                {link.label}
+                            </a>
+                        </li>
+                    ))}
+                </ul>
             </div>
         </nav>
-    )
-}
+    );
+};
 
-export default Navbar
+export default Navbar;
