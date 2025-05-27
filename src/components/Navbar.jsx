@@ -9,13 +9,12 @@ const Navbar = () => {
                         <a href="#" className="text-xl font-bold text-white">TAGDev</a>
                     </div>
                     <div className="hidden md:flex items-center space-x-4">
-                        <a href="#" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                        <a href="#" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">About</a>
-                        <a href="#" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Service</a>
-                        <a href="#" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Portfolio</a>
-                        <a href="#" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Resume</a>
-                        <a href="#" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Blog</a>
-                        <a href="#" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
+                        <a href="#hero" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                        <a href="#about" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">About</a>
+                        <a href="#resume" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Resume</a>
+                        <a href="#featuredworks" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Works</a>
+                        <a href="#devnews" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+                        <a href="#connect" className="text-gray-200 hover:text-amber-600 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
                         <span className="text-gray-400 px-3 py-2 rounded-md text-sm font-medium cursor-not-allowed">Tobe Chukwu</span>
                     </div>
                     {/* Mobile menu button */}

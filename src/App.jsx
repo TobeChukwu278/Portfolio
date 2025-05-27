@@ -22,12 +22,24 @@ const App = () => {
         <Navbar />
       </div>
       <div>
-        <Hero />
-        <About />
-        <Resume />
-        <Featuredworks />
-        <DevNews />
-        <Connect />
+        <section id="hero">
+          <Hero />
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <section id="resume">
+          <Resume />
+        </section>
+        <section id="featuredworks">
+          <Featuredworks />
+        </section>
+        <section id="devnews">
+          <DevNews />
+        </section>
+        <section id="connect">
+          <Connect />
+        </section>
         <Footer />
       </div>
     </div>
