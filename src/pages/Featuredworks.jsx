@@ -4,7 +4,7 @@ import React from 'react';
 const projectsData = [
     {
         title: 'API for an E-commerce web app',
-        description: 'Developed a robust and scalable RESTful API using Expressjs and mongoDB.',
+        description: 'Developed a scalable RESTful API using Expressjs and mongoDB.',
         techStack: ['Node.js', 'Express', 'PostgreSQL'],
         link: '#', // Add your project link
     },
@@ -19,6 +19,12 @@ const projectsData = [
         description: 'Developed a scalable web app for alocal store using REACT and Tailwind.',
         techStack: ['React', 'TailwindCSS'],
         link: 'agboedo-comm.vercel.app',
+    }
+{
+        title: 'React ToDo app',
+        description: 'Developed a scalable web ToDo app ',
+        techStack: ['React', 'TailwindCSS'],
+        link: 'mobile-number-validator.vercel.app',
     }
     // Add more projects here
 ];
