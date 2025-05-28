@@ -17,7 +17,7 @@ const Hero = () => {
                         <span className="w-8 h-1 bg-amber-600 rounded"></span>
                         <h4 className="text-amber-600 text-lg font-semibold tracking-wide">Hello</h4>
                     </div>
-                    <h1 data-aos="fade-up" data-aos-delay="200" className="text-4xl md:text-6xl font-extrabold mb-4 leading-tight">
+                    <h1 data-aos="fade-up" data-aos-delay="200" className="text-4xl text-gray-200 md:text-6xl font-extrabold mb-4 leading-tight">
                         I Am <span className="text-amber-600">TobeChukwu</span> Ejiofor<span className="text-amber-600">.</span>
                     </h1>
                     <p data-aos="fade-up" data-aos-delay="400" className="text-lg md:text-xl text-amber-100/90 mb-8 max-w-xl">
