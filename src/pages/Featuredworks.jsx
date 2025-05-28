@@ -12,7 +12,7 @@ const projectsData = [
         title: 'Land page for a Chat app',
         description: 'Built a sleek and modern landpage using tailwind and react',
         techStack: ['React', 'TailwindCSS'],
-        link: '#',
+        link: 'gchat-landpage.vercel.app',
     },
     {
         title: 'Agboedo E-commerce app',
