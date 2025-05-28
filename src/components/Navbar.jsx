@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <nav className="bg-gray-900 px-4 py-3 shadow-lg">
             <div className="max-w-6xl mx-auto flex items-center justify-between">
-                <div className="text-2xl font-bold text-amber-500">MyPortfolio</div>
+                <div className="text-2xl font-bold text-amber-500">TAGD<span className="text-amber-500">ev</span></div>
                 {/* Hamburger */}
                 <button
                     className="md:hidden text-amber-500 text-3xl focus:outline-none"
