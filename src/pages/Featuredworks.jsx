@@ -18,13 +18,13 @@ const projectsData = [
         title: 'Agboedo E-commerce app',
         description: 'Developed a scalable web app for alocal store using REACT and Tailwind.',
         techStack: ['React', 'TailwindCSS'],
-        link: 'agboedo-comm.vercel.app',
+        link: 'https://agboedo-comm.vercel.app/',
     }
 {
         title: 'React ToDo app',
         description: 'Developed a scalable web ToDo app ',
         techStack: ['React', 'TailwindCSS'],
-        link: 'mobile-number-validator.vercel.app',
+        link: 'https://mobile-number-validator.vercel.app/',
     }
     // Add more projects here
 ];
