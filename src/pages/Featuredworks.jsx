@@ -19,8 +19,8 @@ const projectsData = [
         description: 'Developed a scalable web app for alocal store using REACT and Tailwind.',
         techStack: ['React', 'TailwindCSS'],
         link: 'https://agboedo-comm.vercel.app/',
-    }
-{
+    },
+    {
         title: 'React ToDo app',
         description: 'Developed a scalable web ToDo app ',
         techStack: ['React', 'TailwindCSS'],
