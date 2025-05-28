@@ -61,7 +61,7 @@ const Connect = () => {
                     {sent ? (
                         <div className="text-green-400">Message sent successfully!</div>
                     ) : (
-                        <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4">
+                        <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-4 text-amber-500">
                             <input name="name" type="text" placeholder="Your Name" required className="p-2 rounded" />
                             <input name="email" type="email" placeholder="Your Email" required className="p-2 rounded" />
                             <textarea name="message" placeholder="Your Message" required className="p-2 rounded" />
