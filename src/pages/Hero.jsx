@@ -25,7 +25,7 @@ const Hero = () => {
                     </p>
                     <div data-aos="fade-up" data-aos-delay="600">
                         <a
-                            href="/resume.pdf"
+                            href="/resume(2).pdf"
                             download
                             target="_blank"
                             rel="noopener noreferrer"
