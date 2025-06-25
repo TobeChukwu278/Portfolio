@@ -53,16 +53,16 @@ const Resume = () => {
                 </div>
                 <div className="bg-white/10 backdrop-blur-md rounded-xl shadow-lg p-8 max-w-3xl w-full flex flex-wrap justify-center gap-8">
                     <div data-aos="fade-up" data-aos-delay='400' className="flex flex-col items-center gap-4">
-                        <SkillMeter skill="React" level={60} icon="⚛️" />
-                        <SkillMeter skill="Node.js" level={40} icon="🟩" />
+                        <SkillMeter skill="React" level={100} icon="⚛️" />
+                        <SkillMeter skill="Node.js" level={100} icon="🟩" />
                     </div>
                     <div data-aos="fade-up" data-aos-delay='500' className="flex flex-col items-center gap-4">
-                        <SkillMeter skill="MongoDB" level={30} icon="🍃" />
-                        <SkillMeter skill="CSS" level={75} icon="🎨" />
+                        <SkillMeter skill="MongoDB" level={100} icon="🍃" />
+                        <SkillMeter skill="CSS" level={100} icon="🎨" />
                     </div>
                     <div data-aos="fade-up" data-aos-delay='500' className="flex flex-col items-center gap-4">
-                        <SkillMeter skill="HTML5" level={70} icon="🧍" />
-                        <SkillMeter skill="JavaScript" level={65} icon="🏋️‍♂️" />
+                        <SkillMeter skill="HTML5" level={100} icon="🧍" />
+                        <SkillMeter skill="JavaScript" level={100} icon="🏋️‍♂️" />
                     </div>
                 </div>
             </div>

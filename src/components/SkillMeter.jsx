@@ -28,7 +28,7 @@ const SkillMeter = ({ skill, level, icon }) => (
         <div className="w-full">
             <div className="flex justify-between mb-1">
                 <span className="font-semibold text-amber-700">{skill}</span>
-                <span className="text-xs text-amber-400">{level}%</span>
+                {/* <span className="text-xs text-amber-400">{level}%</span> */}
             </div>
             <div className="w-full bg-amber-100 rounded-full h-2.5">
                 <div
