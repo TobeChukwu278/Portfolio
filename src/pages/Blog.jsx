@@ -9,13 +9,13 @@ const DevNews = () => {
         const fetchNews = async () => {
             try {
                 const response = await fetch(
-                    `http://localhost:5000/api/news`
+                    `https://newsapi.org/v2/everything?q=developer+google&language=en&sortBy=publishedAt&pageSize=4&apiKey=1e123be6f5c54f65ae2dfaab1e614643`
                 );
                 const data = await response.json();
                 if (data.status !== "ok") throw new Error(data.message);
                 setArticles(data.articles);
             } catch (error) {
-                setError(error.message); // 2. Set error
+                setError(error.message);
                 console.error('Error fetching news:', error);
             } finally {
                 setLoading(false);

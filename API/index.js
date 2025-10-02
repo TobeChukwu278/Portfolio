@@ -12,7 +12,7 @@ app.get('/api/news', async (req, res) => {
         res.json(data);
     } catch (err) {
         console.error(err);
-        res.status(500).json({ error: 'Failed to fetch news' });
+        res.status(500).json({ error: 'Nothing here yet' });
     }
 });
 
