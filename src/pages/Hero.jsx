@@ -1,5 +1,4 @@
 import React from 'react';
-import profileImage from './assets/WhatsApp Image 2025-04-09 at 15.44.28_4495f69c.jpg';
 
 const Hero = () => {
     const skills = ['Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'RESTful APIs', 'React'];
@@ -113,7 +112,7 @@ const Hero = () => {
                             {/* Main image container */}
                             <div className="relative z-10">
                                 <img
-                                    src={profileImage}
+                                    src='./assets/WhatsApp Image 2025-04-09 at 15.44.28_4495f69c.jpg'
                                     alt="TobeChukwu Ejiofor - Full Stack Developer"
                                     className="w-full h-auto rounded-2xl shadow-2xl"
                                 />
