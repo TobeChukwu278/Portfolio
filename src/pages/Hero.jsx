@@ -1,4 +1,5 @@
 import React from 'react';
+import profileImage from './assets/WhatsApp Image 2025-04-09 at 15.44.28_4495f69c.jpg';
 
 const Hero = () => {
     const skills = ['Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'RESTful APIs', 'React'];
@@ -112,7 +113,7 @@ const Hero = () => {
                             {/* Main image container */}
                             <div className="relative z-10">
                                 <img
-                                    src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='700'%3E%3Crect width='600' height='700' fill='%231f2937'/%3E%3Ctext x='50%25' y='50%25' font-size='24' text-anchor='middle' dy='.3em' fill='%23D97706' font-family='sans-serif'%3EYour Professional Photo%3C/text%3E%3C/svg%3E"
+                                    src={profileImage}
                                     alt="TobeChukwu Ejiofor - Full Stack Developer"
                                     className="w-full h-auto rounded-2xl shadow-2xl"
                                 />
